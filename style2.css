@@ -1,0 +1,25 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+body{background-color: #24277E; color:azure;} 
+header{background: white; padding: 20px;}
+header h1 {color: darkblue; text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.welcome{font-family:Georgia, 'Times New Roman', Times, serif; font-style: italic; font-weight: bold;
+padding: 20px; background-color: black; text-align: center; color: lime;}
+.buttons{align-content: center;}
+#result { font-size: 24px; }
+        .button { font-size: 18px; margin: 10px; padding: 10px; }
+#action-msg{font-family:cursive; font-weight: 500; font-size: x-large;
+background-color: turquoise; color: black; text-align: center; padding: 20px;}
+
+.btn-rock{background-color: yellow; padding: 20px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic; font-weight: bold;}
+.btn-rock:hover{background-color: red; color: white; background-size: cover;}
+
+.btn-paper{background-color: yellow; padding: 20px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic; font-weight: bold;}
+.btn-paper:hover{background-color: rgb(2, 175, 19); color: white; background-size: cover;}
+
+.btn-scissor{background-color: yellow; padding: 20px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic; font-weight: bold;}
+.btn-scissor:hover{background-color: magenta; color: white; background-size: cover;}
