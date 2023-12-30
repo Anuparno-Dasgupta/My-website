@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todostyles.css">
+    <title>To-do List App</title>
+</head>
+<body>
+    <div id="planner">
+        <h1 class="heading">DAILY PLANNER</h1>
+        <div id="days">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</div>
+        <div id="months">Jan Feb Mar Apr May June July Aug Sep Oct Nov Dec</div>
+        <div id="dates">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31</div>
+    </div>
+    <br>
+    <div class="date">
+        <h3><label>Day </label></h3>
+        <select name="months" id="month">
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+            <option value="7">Sunday</option></select>
+        <h3><label for="dates">Date </label></h3>
+        <select name="dates" id="date">
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+    <h3><label>Month </label></h3>
+        <select name="months" id="month">
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+    </select>
+    <h3><label>Year </label><input type="text"></h3></div>   
+        <!-- Sections -->
+        <div class="section">
+            <section class="left-column">
+            <table>
+            <th><h2>TOP PRIORITIES</h2></th>
+            <tr><td><input type="text"></td></tr>
+            <tr><td><input type="text"></td></tr>
+            <tr><td><input type="text"></td></tr>
+            </table>
+            <table>
+                <th><h2>TODAY'S SCHEDULE</h2></th>
+                <tr><td>6:00<input type="text"></td></tr>
+                <tr><td>7:00<input type="text"></td></tr>
+                <tr><td>8:00<input type="text"></td></tr>
+                <tr><td>9:00<input type="text"></td></tr>
+                <tr><td>10:00<input type="text"></td></tr>
+                <tr><td>11:00<input type="text"></td></tr>
+                <tr><td>12:00<input type="text"></td></tr>
+                <tr><td>13:00<input type="text"></td></tr>
+                <tr><td>14:00<input type="text"></td></tr>
+                <tr><td>15:00<input type="text"></td></tr>
+                <tr><td>16:00<input type="text"></td></tr>
+                <tr><td>17:00<input type="text"></td></tr>
+                <tr><td>18:00<input type="text"></td></tr>
+                <tr><td>19:00<input type="text"></td></tr>
+                <tr><td>20:00<input type="text"></td></tr>
+                <tr><td>21:00<input type="text"></td></tr>
+                <tr><td>22:00<input type="text"></td></tr>
+            </table></section>
+        <section class="mid-column">
+            <table>
+                <th><h2>NEED TO CALL</h2></th>
+                <tr><td><ol>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                </ol></td></tr>
+            </table>
+            <table>
+                <th><h2>ERRANDS TO RUN</h2></th>
+                <tr><td><ul>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                </ul></td></tr>
+            </table>
+            <table>
+                <th><h2>TO BUY</h2></th>
+                <tr><td><ol>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                </ol></td></tr>
+            </table>
+            <table>
+                <th><h2>TO DO</h2></th>
+                <form id="todo-form">
+                    <tr><td class="td"><label>Gym</label><br>
+                    <input type="checkbox"></td></tr>
+                    <tr><td class="td"><label>Freehand Exercise</label><br>
+                    <input type="checkbox"></td></tr>
+                    <tr><td class="td"><label>Study</label><br>
+                    <input type="checkbox"></td></tr>
+                    <tr><td class="td"><label>Internship Work</label><br>
+                    <input type="checkbox"></td></tr>
+                    <tr><td class="td"><label>Attend Online Mock Tests</label><br>
+                    <input type="checkbox"></td></tr>
+                </form>
+            </table>
+        </section>
+        <section class="right-column">
+            <table>
+                <th><h2>NOTES</h2></th>
+                <tr><td><ul>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                    <li><h4><input type="text"></h4></li>
+                </ul></td></tr>
+            </table>
+            <table>
+                <th><h2>BREAKFAST</h2></th>
+                <tr><td>Monday<input type="text"></td></tr>
+                <tr><td>Tuesday<input type="text"></td></tr>
+                <tr><td>Wednesday<input type="text"></td></tr>
+                <tr><td>Thursday<input type="text"></td></tr>
+                <tr><td>Friday<input type="text"></td></tr>
+                <tr><td>Saturday<input type="text"></td></tr>
+                <tr><td>Sunday<input type="text"></td></tr>
+                </table>
+            <table>
+                <th><h2>LUNCH</h2></th>
+                <tr><td>Monday<input type="text"></td></tr>
+                <tr><td>Tuesday<input type="text"></td></tr>
+                <tr><td>Wednesday<input type="text"></td></tr>
+                <tr><td>Thursday<input type="text"></td></tr>
+                <tr><td>Friday<input type="text"></td></tr>
+                <tr><td>Saturday<input type="text"></td></tr>
+                <tr><td>Sunday<input type="text"></td></tr>
+                </table>
+            <table>
+                <th><h2>DINNER</h2></th>
+                <tr><td>Monday<input type="text"></td></tr>
+                <tr><td>Tuesday<input type="text"></td></tr>
+                <tr><td>Wednesday<input type="text"></td></tr>
+                <tr><td>Thursday<input type="text"></td></tr>
+                <tr><td>Friday<input type="text"></td></tr>
+                <tr><td>Saturday<input type="text"></td></tr>
+                <tr><td>Sunday<input type="text"></td></tr>
+            </table>
+        </section>  
+        </div>
+        <div class="copyright"><p style="text-align: center; font-weight: bold;">©Anuparno Dasgupta</p></div>
+</body>
+</html>
+
